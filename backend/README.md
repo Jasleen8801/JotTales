@@ -26,3 +26,15 @@ After this exit the shell and run the server using:
 ```bash
 python manage.py runserver
 ```
+
+## Setting up Environment
+
+Please generate a `.env` file in the root and use the following format:
+
+```bash
+EMAIL=<YOUR_EMAIL>
+PASSWORD=<YOUR_PASSWORD_FOR_EMAIL>
+```
+
+If you've two atep authentication, create a password for the app using the following link: 
+`https://myaccount.google.com/apppasswords`
